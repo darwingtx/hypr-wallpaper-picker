@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Accion del launcher de Noctalia: galeria de wallpapers online con previews.
+#
+# Muestra miniaturas ligeras y solo descarga la imagen que eliges.
+
+exec "$HOME/.config/hypr/custom/scripts/wallpaper_gallery.py" "$@"

@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.cache/
+*.tmp.*
+*.tmp.jpg
+*.tmp.png
+.DS_Store

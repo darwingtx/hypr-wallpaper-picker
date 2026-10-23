@@ -1,0 +1,21 @@
+# Configuracion de waypaper para que aplique via el shell (con tema)
+#
+# Copia las claves relevantes a ~/.config/waypaper/config.ini
+#
+#   backend = none
+#   post_command = /home/darwingtx/.config/hypr/custom/scripts/wallpaper_apply.sh $wallpaper
+#   folder = ~/Pictures/Wallpapers
+#
+# "backend = none" es intencionado: el shell (Noctalia) dibuja el fondo por
+# encima de cualquier backend, asi que waypaper no debe pintar nada. Su unico
+# papel es dejarte elegir el fichero y disparar el post_command, que aplica el
+# fondo y regenera el tema Material You.
+
+[Settings]
+language = es
+folder = ~/Pictures/Wallpapers
+backend = none
+monitors = All
+fill = fill
+post_command = /home/darwingtx/.config/hypr/custom/scripts/wallpaper_apply.sh $wallpaper
+keybindings = ~/.config/waypaper/keybindings.ini

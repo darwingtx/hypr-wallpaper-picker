@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Accion del launcher de Noctalia: gestion de wallpapers online.
+#
+# Sin argumentos: abre el menu (random, top, bing, buscar, waypaper).
+# Con argumentos: busca y aplica directamente esos tags.
+#   wallpaper cyberpunk city
+
+exec "$HOME/.config/hypr/custom/scripts/wallpaper_menu.sh" "$@"
